@@ -22,7 +22,7 @@ using namespace llvmpascal;
 
 int main()
 {
-    Scanner scanner("/Users/taowei/Documents/工程/LLVMPascalCompiler/scanner_test.pas");
+    Scanner scanner("scanner_test.pas");
 
     if (scanner.getErrorFlag())
     {
