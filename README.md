@@ -29,6 +29,11 @@ MakeFile. I will supply it later
 Mac OS X:
 ==
 
+Environment: Xcode 5.1.1
+System: OS X 10.9.4
+
+Click LLVMPascalCompiler.xcodeproj and Run.
+
 It will be supported by [@sile][2]
 
 License
