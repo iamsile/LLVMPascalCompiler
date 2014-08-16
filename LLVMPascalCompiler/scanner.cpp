@@ -279,18 +279,18 @@ namespace llvmpascal
 
         enum class NumberState
         {
-            INTERGER,
+            INTEGER,
             FRACTION,
             EXPONENT,
             DONE
         };
-        NumberState numberState = NumberState::INTERGER;
+        NumberState numberState = NumberState::INTEGER;
 
         do
         {
             switch (numberState)
             {
-                case NumberState::INTERGER:
+                case NumberState::INTEGER:
                     if (numberBase == 10)
                     {
                         handleDigit();

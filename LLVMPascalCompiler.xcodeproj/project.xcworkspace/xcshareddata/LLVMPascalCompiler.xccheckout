@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F1725E7-CBB0-4FC6-9B4F-9710B0D69F15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LLVMPascalCompiler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE346AA7-27C1-477B-8984-1318FA834D0E</key>
+		<string>https://github.com/iamsile/LLVMPascalCompiler.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LLVMPascalCompiler.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE346AA7-27C1-477B-8984-1318FA834D0E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iamsile/LLVMPascalCompiler.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE346AA7-27C1-477B-8984-1318FA834D0E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE346AA7-27C1-477B-8984-1318FA834D0E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LLVMPascalCompiler</string>
+		</dict>
+	</array>
+</dict>
+</plist>
