@@ -13,7 +13,12 @@
 #ifndef SCANNER_H_
 #define SCANNER_H_
 
+#define __STDC_LIMIT_MACROS 1
+
+#define __STDC_CONSTANT_MACROS 1
+
 #include <fstream>
+#include <llvm/IR/Module.h>
 #include "token.h"
 #include "dictionary.h"
 

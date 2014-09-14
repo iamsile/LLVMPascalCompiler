@@ -17,6 +17,7 @@
 #include <cctype>
 #include "scanner.h"
 #include "error.h"
+#include <llvm/IR/Module.h>
 
 
 namespace llvmpascal
@@ -247,8 +248,7 @@ namespace llvmpascal
                     }
                 }
             }
-        }
-        while (!matched);
+        } while (!matched);
 
         return token_;
     }
@@ -335,8 +335,7 @@ namespace llvmpascal
             {
                 numberState = NumberState::DONE;
             }
-        }
-        while (numberState != NumberState::DONE);
+        } while (numberState != NumberState::DONE);
 
         if (isFloat)
         {
@@ -406,9 +405,9 @@ namespace llvmpascal
             addToBuffer(currentChar_);
             getNextChar();
         }
-
         // end while. currentChar_ is not alpha, number and _.
-        // keyword or not
+
+		// keyword or not
         // because Pascal is not case sensitive
         // we should transform it to lower case
 		std::transform(buffer_.begin(), buffer_.end(), buffer_.begin(), tolower);
@@ -454,9 +453,9 @@ namespace llvmpascal
             addToBuffer(currentChar_);
             getNextChar();
         }
+		// end while. currentChar_ is not digit.
 
-        // end while. currentChar_ is not digit.
-        // notice maybe currentChar_ is .(dot) or E/e,
+		// notice maybe currentChar_ is .(dot) or E/e,
         // so the NumberState can be changed into
         // NumberState::Fraction or NumberState::Exponent.
     }
